@@ -2,6 +2,9 @@
     width: 984px;
     height: 660px;
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .place:last-child {

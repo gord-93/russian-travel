@@ -1,6 +1,6 @@
 .lead__caption {
-    margin: 8px 973px 0 148px;
-    width: 159px;
+    margin-top: 8px;
+    min-width: 159px;
     height: 14px;
     font-size: 10px;
     line-height: 140%;
