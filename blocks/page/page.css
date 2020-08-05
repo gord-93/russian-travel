@@ -3,3 +3,7 @@
     width: 1280px;
     font-family: 'Inter', sans-serif;
 }
+
+* {
+    outline: 2px solid red;
+}
