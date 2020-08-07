@@ -5,11 +5,26 @@
     line-height: 122%;
     text-align: center;
     font-weight: normal;
-    color: #ffffff;
     z-index: 2;
 }
 
+@media screen and (max-width: 1280px) {
+    .cover__subtitle {
+        margin: 32px 412px 245px;
+    }
+}
 
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        margin: 32px 332px 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        margin: 32px 204px 115px;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .cover__subtitle {

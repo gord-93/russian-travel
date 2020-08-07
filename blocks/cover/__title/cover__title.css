@@ -3,13 +3,32 @@
     min-height: 70px;
     font-size: 72px;
     font-weight: 900;
+    font-style: normal;
     line-height: 106%;
     text-align: center;
-    color: #ffffff;
     margin-bottom: 32px;
     z-index: 2;
 }
 
+@media screen and (max-width: 1280px) {
+    .cover__title {
+        margin: 245px 312px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        font-size: 72px;
+        line-height: 106%;
+        margin: 195px 232px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        margin: 115px 104px 0;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .cover__title {
