@@ -1,8 +1,21 @@
 .cover {
-    width: 1184px;
-    height: 740px;
+    min-width: 320px;
+    min-height: 200px;
     margin: 92px 48px 0;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 88px 0 0;
+        }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 64px 0 0;
+        grid-template-rows: 1fr;
+    }
 }

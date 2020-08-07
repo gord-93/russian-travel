@@ -2,6 +2,6 @@
     width: 100%;
     min-height: 200px;
     margin: 64px 0 0;
-    background-size: contain;
+    object-fit: cover;
 }
 
