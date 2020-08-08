@@ -11,8 +11,3 @@
     text-decoration: none;
 }
 
-@media screen and (max-width: 320px) {
-    .place__website_url-heading {
-        display: none;
-    }
-}

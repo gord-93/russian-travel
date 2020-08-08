@@ -3,6 +3,11 @@
     height: 46px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
-    margin-top: 106px;
+    align-self: end;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        display: none;
+    }
 }

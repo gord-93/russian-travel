@@ -3,7 +3,7 @@
     justify-content: start;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 786px) {
     .footer__links {
         flex-direction: column;
         margin-left: 16px;

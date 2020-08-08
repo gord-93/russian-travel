@@ -1,12 +1,20 @@
 .place {
-    min-width: 320px;
+    max-width: 984px;
     margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(2, auto);
+    grid-gap: 40px 48px;
 }
 
 .place:last-child {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: auto;
+        grid-gap: 32px;
+    }
 }
 

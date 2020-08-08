@@ -1,8 +1,10 @@
 .place__image {
-    min-width: 320px;
     max-width: 460px;
-    min-height: 320px;
-    margin-right: 40px;
-    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 320px;
+    }
 }
 
