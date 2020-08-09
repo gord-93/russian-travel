@@ -1,10 +1,10 @@
 .footer__link {
     font-size: 16px;
     line-height: 112%;
-    color: #ffffff;
     margin: 0 18px 0 0;
     font-style: normal;
     text-decoration: none;
+    color: #ffffff;
 }
 
 .footer__link:last-child {
@@ -15,7 +15,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .footer__link {
     font-size: 24px;
     line-height: 100%;

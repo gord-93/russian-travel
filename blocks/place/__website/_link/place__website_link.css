@@ -1,6 +1,5 @@
 .place__website_link {
-    width: 456px;
-    height: 22px;
+    min-width: 352px;
     font-size: 18px;
     line-height: 122%;
     text-decoration: underline;

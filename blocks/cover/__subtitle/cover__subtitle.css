@@ -7,6 +7,12 @@
     font-weight: normal;
     z-index: 2;
     margin: 32px 412px 245px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cover__subtitle:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

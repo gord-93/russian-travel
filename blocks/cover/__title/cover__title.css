@@ -9,6 +9,12 @@
     margin-bottom: 32px;
     z-index: 2;
     margin: 245px 312px 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cover__title:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

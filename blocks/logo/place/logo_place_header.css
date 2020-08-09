@@ -3,9 +3,8 @@
     height: 52px;
 }
 
-@media screen and (width: 320px) {
+@media screen and (max-width: 767px) {
     .logo_place_header {
-        width: 142px;
-        height: 42px;
+        max-width: 142px;
     }
 }
