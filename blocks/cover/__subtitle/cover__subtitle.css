@@ -11,23 +11,19 @@
     text-decoration: none;
 }
 
-.cover__subtitle:hover {
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover__subtitle {
         margin: 32px 332px 195px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover__subtitle {
         margin: 32px 204px 115px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 114%;
