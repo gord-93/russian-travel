@@ -38,7 +38,3 @@
 @import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/__link/_indents/footer__link_indents.css);
 
-* {
-    outline: 2px solid red;
-}
-
