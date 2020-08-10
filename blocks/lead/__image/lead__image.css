@@ -5,3 +5,8 @@
     object-fit: cover;
 }
 
+@media screen and (max-width: 767px) {
+    .lead__image {
+        margin: 40px 0 0;
+    }
+}
