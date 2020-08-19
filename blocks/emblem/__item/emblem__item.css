@@ -1,0 +1,12 @@
+.emblem__item {
+    max-width: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 36px;
+}
+
+.emblem__item:last-child {
+    margin-right: 0;
+}

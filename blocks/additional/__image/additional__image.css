@@ -1,0 +1,6 @@
+.additional__image {
+    max-width: 284px;
+    border-radius: 5px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}

@@ -1,0 +1,17 @@
+.video__rect {
+    max-width: 583px;
+    min-height: 323px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.video__rect:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+

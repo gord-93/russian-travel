@@ -1,0 +1,8 @@
+.additional__item {
+    max-width: 284px;
+    margin-right: 16px;
+}
+
+.additional__item:last-child {
+    margin-right: 0;
+}
